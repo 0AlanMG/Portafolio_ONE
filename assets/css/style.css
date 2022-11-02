@@ -18,8 +18,6 @@ body {
     margin: 0;
     line-height: 1;
 
-    padding: 0 9rem;
-    
     font-family: 'Raleway';
     font-style: normal;
     color: #464646;
@@ -51,7 +49,7 @@ section.menu {
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem 0;
+    padding: 1rem 9rem;
 
     font-size: 16px;
     line-height: 19px;
@@ -83,7 +81,7 @@ section.menu {
 /*Sección Title*/
 
 section.title {
-    padding: 1rem 0;
+    padding: 1rem 9rem;
 }
 
 .title__div {
@@ -130,7 +128,29 @@ section.title {
 /*Sección About*/
 
 section.about{
+    padding: 1rem 9rem 3rem 9rem;
 
+    background: #EAF2FD;
+}
+
+.about__container {
+    width: 60vw;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin-bottom: 1rem;
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-bottom: 1rem;
 }
 
 /*Sección Hobbies*/

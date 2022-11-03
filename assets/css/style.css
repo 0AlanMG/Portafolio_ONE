@@ -302,12 +302,91 @@ section.academic {
 
 /* experiencia*/
 section.experience{
+    padding: 1rem 9rem 4rem 9rem;
+}
 
+.experience__section__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    text-align: center;
+}
+
+.experience__box {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 4rem;
+}
+
+.experience__box:nth-child(3), .experience__box:nth-child(5) {
+    justify-content: space-between;
+}
+
+.experience__box:nth-child(3) .experience__info, .experience__box:nth-child(5) .experience__info{
+    order: -1;
+
+    margin-left: 0;
+}
+
+.experience__info {
+    margin-left: 1rem;
+}
+
+.experience__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    margin: 0;
+}
+
+.experience__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: .5rem 0;
+}
+
+.experiencia__botao--repo {
+    width: 116px;
+    height: 51px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #2A7AE4;
+
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+
+    background: #FFFFFF;
+    
+    padding: 16px;
+    margin-right: 1rem;
+}
+
+.experience__botao--demo {
+    width: 105px;
+    height: 51px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    background: #2A7AE4;
+
+    padding: 16px;
 }
 
 /*Contacto*/
 section.formcontato{
-
+    
 }
 
 /*footeer*/

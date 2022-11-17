@@ -323,10 +323,22 @@
                         Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. 
                     </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <div class="formcontato__form__datos">
+                            <label class="formcontato__input__label" for="nombre">Nombre</label>
+                            <input class="formcontato__input" type="text" name="nombre">
+                        </div>
+                        <div class="formcontato__form__datos">
+                            <label class="formcontato__input__label" for="email">E-mail</label>
+                            <input class="formcontato__input" type="email" name="email">
+                        </div>
+                        <div class="formcontato__form__datos">
+                            <label class="formcontato__input__label" for="asunto">Asunto</label>
+                            <input class="formcontato__input" type="text" name="asunto">
+                        </div>
+                        <div class="formcontato__form__datos">
+                            <label class="formcontato__input__label" for="mensaje">Mensaje</label>
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"></textarea>
+                        </div>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
@@ -342,6 +354,7 @@
         </section>
     </div>
     <!-- Script del documento JavaScript -->
+    <script src="./assets/js/css-complemento.js"></script>
     <script src="./assets/js/validacion.js"></script>
 </body>
 

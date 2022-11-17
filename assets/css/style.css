@@ -302,7 +302,7 @@ section.academic {
 
 /* experiencia*/
 section.experience{
-    padding: 1rem 9rem 4rem 9rem;
+    padding: 1rem 9rem 2rem 9rem;
 }
 
 .experience__section__title {
@@ -328,6 +328,10 @@ section.experience{
     order: -1;
 
     margin-left: 0;
+}
+
+.experience__box:nth-child(5) {
+    margin-bottom: 0;
 }
 
 .experience__info {
@@ -386,7 +390,116 @@ section.experience{
 
 /*Contacto*/
 section.formcontato{
+    padding: 6rem 9rem 4rem 9rem;
+
+    background: #EAF2FD;
+}
+
+.formcontato__contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontato__text {
+    margin-left: 2rem;
+}
+
+.formcontato__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    margin: 0 0 .5rem 0;
+}
+
+.formcontato__subtext {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin: 0;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1.5rem;
+}
+
+.formcontato__form__datos {
+    position: relative;
+}
+  
+.formcontato__input {
+    height: auto;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    padding: 25px 0 5px 5px;
+
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+    margin-bottom: 1.5rem;
+}
+
+.formcontato__input:focus {
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formcontato__input__label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.formcontato__textarea {
+    height: 133px;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    padding: 25px 0 5px 5px;
     
+    border: none;
+    resize: none;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+    margin-bottom: 1.5rem;
+}
+
+.formcontato__textarea:focus {
+    outline: none;
+}
+
+.formcontato__botao {
+    width: 144px;
+    height: 51px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    background: #2A7AE4;
+
+    padding: 16px;
 }
 
 /*footeer*/
